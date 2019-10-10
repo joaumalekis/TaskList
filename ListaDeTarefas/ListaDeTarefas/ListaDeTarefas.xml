@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListaDeTarefas</name>
+    </assembly>
+    <members>
+        <member name="T:ListaDeTarefas.Auth.SigningConfigurations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ListaDeTarefas.Auth.SigningConfigurations.Key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ListaDeTarefas.Auth.SigningConfigurations.SigningCredentials">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ListaDeTarefas.Auth.SigningConfigurations.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ListaDeTarefas.Auth.TokenConfigurations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ListaDeTarefas.Auth.TokenConfigurations.Audience">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ListaDeTarefas.Auth.TokenConfigurations.Issuer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ListaDeTarefas.Auth.TokenConfigurations.Seconds">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ListaDeTarefas.Controllers.AuthController">
+            <summary>
+            Api para retorno dos dados das tarefas
+            </summary>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.AuthController.#ctor(ListaDeTarefas.Domain.Interfaces.IUsuarioService)">
+            <inheritdoc />
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.AuthController.Get">
+            <summary>
+            Retorna a lista de tarefas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.AuthController.Post(ListaDeTarefas.Domain.Dtos.UsuarioLoginDto,ListaDeTarefas.Auth.SigningConfigurations,ListaDeTarefas.Auth.TokenConfigurations)">
+            <summary>
+            Autentica o usuário
+            </summary>
+            <param name="usuarioLoginDto">Dto de autenticação do usuário</param>
+            <returns>Retorna do Dto com dados de autenticação</returns>
+        </member>
+        <member name="T:ListaDeTarefas.Controllers.TarefaController">
+            <summary>
+            Api de retorno das tarefas
+            </summary>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.#ctor(ListaDeTarefas.Data.ApiContext,ListaDeTarefas.Domain.Interfaces.ITarefaService)">
+            <inheritdoc />
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.GetTarefas">
+            <summary>
+            Retorna todas as tarefas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.GetTarefa(System.Guid)">
+            <summary>
+            Retorna uma tarefa filtrando pelo ID
+            </summary>
+            <param name="id"> Id da tarefa</param>
+            <returns></returns>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.PutTarefa(System.Guid,ListaDeTarefas.Model.Tarefa)">
+            <summary>
+            Altera os dados da tarefa
+            </summary>
+            <param name="id"> Id da Tarefa</param>
+            <param name="tarefa">Objeto da tarefa a ser alterada</param>
+            <returns></returns>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.PostTarefa(ListaDeTarefas.Model.Tarefa)">
+            <summary>
+            Cria uma nova tarefa 
+            </summary>
+            <param name="tarefa"> Id da tarefa</param>
+            <returns></returns>
+        </member>
+        <member name="M:ListaDeTarefas.Controllers.TarefaController.DeleteTarefa(System.Guid)">
+            <summary>
+            Exclui a tarefa
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ListaDeTarefas.Startup.Configuration">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:ListaDeTarefas.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+             <summary>
+            
+             </summary>
+             <param name="configuration"></param>
+        </member>
+    </members>
+</doc>

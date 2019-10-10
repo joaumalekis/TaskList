@@ -1,0 +1,11 @@
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\bin\Debug\netcoreapp3.0\ListaDeTarefas.Data.deps.json
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\bin\Debug\netcoreapp3.0\ListaDeTarefas.Data.dll
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.csprojAssemblyReference.cache
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.AssemblyInfoInputs.cache
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.AssemblyInfo.cs
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\bin\Debug\netcoreapp3.0\ListaDeTarefas.Data.pdb
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\bin\Debug\netcoreapp3.0\ListaDeTarefas.Model.dll
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\bin\Debug\netcoreapp3.0\ListaDeTarefas.Model.pdb
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.csproj.CopyComplete
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.dll
+C:\Users\joaum\Desktop\Supero\ListaDeTarefas\ListaDeTarefas.Data\obj\Debug\netcoreapp3.0\ListaDeTarefas.Data.pdb
